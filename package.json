@@ -1,0 +1,14 @@
+{
+  "name": "setproof-tools",
+  "private": true,
+  "type": "module",
+  "description": "Deploy + seeding scripts for the SetProof intelligent contract.",
+  "scripts": {
+    "deploy": "node tools/deploy.mjs",
+    "seed": "node tools/seed.mjs",
+    "verify": "node tools/verify.mjs"
+  },
+  "dependencies": {
+    "genlayer-js": "1.1.8"
+  }
+}

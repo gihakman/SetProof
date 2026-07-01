@@ -1,0 +1,37 @@
+# Env
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+.vercel/
+.npm/
+
+# Python
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts and caches
+artifacts/
+cache/
+coverage/
+.gltest_cache/
+
+# Logs
+*.log
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
