@@ -16,7 +16,7 @@ export function Footer() {
         <div className="row">
           <LogoMark size={16} />
           <span>
-            SetProof — a decentralized quality certificate authority for AI training data.
+            SetProof: a decentralized quality certificate authority for AI training data.
           </span>
         </div>
         <div className="row">
