@@ -21,6 +21,7 @@ export const EXPLORER = 'https://explorer-bradbury.genlayer.com';
 export const RPC = 'https://rpc-bradbury.genlayer.com';
 export const CHAIN_ID = 4221;
 export const NETWORK_KEY = 'testnetBradbury';
+export const GITHUB_URL = 'https://github.com/gihakman/SetProof';
 
 // Local mirror of the tier lattice used by the on-chain contract.  The
 // contract only stores the string tier, so the front-end formats and colors

@@ -1,5 +1,7 @@
 import React from 'react';
 import { LogoMark, Wordmark } from './Logo.jsx';
+import { GitHubIcon } from './GitHubIcon.jsx';
+import { GITHUB_URL } from '../config.js';
 import { shortAddr } from '../lib/format.js';
 
 export function Header({ wallet }) {
@@ -9,8 +11,6 @@ export function Header({ wallet }) {
     connect,
     disconnect,
     connecting,
-    expectedChainId,
-    chainId,
   } = wallet;
 
   return (
@@ -26,6 +26,16 @@ export function Header({ wallet }) {
           <a href="#console">console</a>
           <a href="#developers">developers</a>
         </nav>
+        <a
+          href={GITHUB_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="icon-link"
+          aria-label="Source on GitHub"
+          title="Source on GitHub"
+        >
+          <GitHubIcon size={18} />
+        </a>
         {address ? (
           <div className="wallet" title={address}>
             <span
